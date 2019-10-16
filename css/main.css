@@ -1,0 +1,362 @@
+/*Спецификация*/
+body {
+    font-family: 'Lato', sans-serif;
+   
+    display: block;
+}
+
+a {
+    color: #FFF;
+}
+
+a:hover {
+    font-size: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .no_mobil {
+        visibility: hidden;
+        display: none;
+    }
+} 
+
+/*Первый экран*/
+#hidder {
+       color: #FFF;
+       background-image: url("../img/hidder.png");
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat; 
+       }
+
+.logo {
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .mobili {
+       justify-content: center;
+       width: 200px;
+       text-align: center;
+    }
+}
+
+.menu {
+    margin-top: 10px;
+}
+.menu__bar {
+    margin: 30px;
+}
+.menu__bar a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.find {
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+.nerv {
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    opacity: 0.7;
+    padding-top: 280px;
+}
+.recip {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.text_t {
+    text-transform: uppercase;
+}
+
+.tabl {
+    width: 260px;
+    height: 65px;
+    border: 2px solid white;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 18px;
+        
+}
+
+.or_send {  
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 240px
+
+}
+
+
+@media only screen and (max-width: 900px) {
+.nerv {
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    opacity: 0.7;
+    padding-top: 130px;
+}
+.recip {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text_t {
+    text-transform: uppercase;
+}
+
+.tabl {
+    width: 260px;
+    height: 65px;
+    border: 2px solid white;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 18px;
+        
+}
+
+.or_send {  
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 140px
+
+}
+}
+
+/*Второй экран*/
+.review {
+    padding-top: 100px;
+    color: black;
+    text-align: center;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.icon {
+    width: 115px;
+    height: 115px;
+    margin-bottom: 15px;
+}
+
+.get_i {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.line {
+    margin-top: -20px;
+    padding: 0;
+}
+
+.lorem {
+    font-size: 16px;
+    font-weight: lighter;
+    word-spacing: -1px;    
+}
+
+.blek {
+    color: black;
+}
+
+
+
+/*Третий экран*/
+.ipone {
+    padding-top: 100px;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.intro {
+    padding-top: 80px;
+}
+
+.pai {
+    width: 120px;
+}
+
+/*слайдер*/
+
+.foto {
+    width: 115px;
+    height: 115px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sli {
+      margin-top: -180px;
+     
+}
+
+.citata {
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-style: italic;
+}
+
+.avtor {
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+}
+
+/*Четвертый экран*/
+
+.bar {   
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding-top: 100px;
+}
+
+.bard {
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.fud {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.fud img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.ras {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    top: 25%;
+    text-shadow: 1px 1px 2px black
+}
+ 
+.ras p {
+    color: #FFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.ras h2 {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.col-xm-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-height: 225px;
+     
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+} 
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+} 
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+} 
+
+.padbot {
+    margin-top: -7px;
+}
+
+/*Экран статистика*/
+.statis {
+    padding-top: 60px;
+    color: black;
+    text-align: center;
+    display: block;
+    padding-bottom: 60px;
+    border-bottom: 2px solid #e2e2e2
+}
+
+.statis h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.statia p {
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+/*Footer*/
+
+
+
+
+
+  
+   .footer {
+    color: black;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    /*display: block;*/
+}
+
+
